@@ -1,17 +1,27 @@
 {
-  "name": "scrap",
+  "name": "scrap-wiki",
   "version": "1.0.0",
-  "description": "",
+  "description": "El objetivo de este ejercicio es crear una aplicación Node.js con Express que realice scraping de datos de la Wikipedia. En particular, se busca obtener información sobre músicos de rap a partir de la categoría correspondiente en la Wikipedia en español. Esta es la URL que debes usar  `const url = 'https://es.wikipedia.org/wiki/Categor%C3%ADa:M%C3%BAsicos_de_rap'`",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jose-sinacento/scrap-wiki.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jose-sinacento/scrap-wiki/issues"
+  },
+  "homepage": "https://github.com/jose-sinacento/scrap-wiki#readme",
   "dependencies": {
-    "axios": "1.6.5",
+    "axios": "1.6.6",
     "cheerio": "1.0.0-rc.12",
-    "express": "4.18.2"
+    "express": "4.18.2",
+    "nodemon": "3.0.3"
   }
 }
